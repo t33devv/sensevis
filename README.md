@@ -13,12 +13,12 @@ uv pip install "git+https://github.com/t33devv/sensevis.git"
 
 ### with traditional pip
 ```bash
-pip install git+https://github.com/yourusername/sensevis.git
+pip install git+https://github.com/t33devv/sensevis.git
 ```
 
 ### development mode
 ```bash
-git clone https://github.com/yourusername/sensevis.git
+git clone https://github.com/t33devv/sensevis.git
 cd sensevis
 uv pip install -e ".[dev]"  # Editable install with dev dependencies
 ```
@@ -28,7 +28,7 @@ uv pip install -e ".[dev]"  # Editable install with dev dependencies
 from sensevis.readdata import SenseScraper
 
 # Basic usage
-aPath = '/Users/tommyzhou/Desktop/endeavours/senseai_finalproject/src/sensevis'
+aPath = '/Users/tommyzhou/Desktop/endeavours/senseai_project/src/sensevis'
 scraper = SenseScraper()
 scraper.write_bbox(aPath, 9)
 ```
